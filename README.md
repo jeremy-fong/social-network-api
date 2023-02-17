@@ -18,7 +18,7 @@
 ### *Social Network Api*
 
 ## Description :
-* This project uses 
+* This project uses use Express.js for routing, a MongoDB database, and the Mongoose ODM.
 * 
 
 ## Installation :
