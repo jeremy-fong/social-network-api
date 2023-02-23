@@ -19,15 +19,15 @@
 
 ## Description :
 * This project uses use Express.js for routing, a MongoDB database, and the Mongoose ODM.
-* 
+* This project is an API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list. 
 
 ## Installation :
-The user needs to install  
+The user needs to install Node.js, npm dependencies, and MongoDB.
 
 ## Usage :
-- 
-- 
-- 
+- In the root directory terminal, install the npm dependencies with `npm i`.
+- Then to start the server, type `npm start`.
+- Insomnia was used to test the api routes and endpoints. 
 
 ## User Story :
 ```md
