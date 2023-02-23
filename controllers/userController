@@ -87,8 +87,8 @@ module.exports = {
         res.status(500).json(err);
       });
   },
-  // remove a friend from the friend list
-  removeFriend(req, res) {
+  // delete a friend from the friend list
+  deleteFriend(req, res) {
     User.findOneAndUpdate(
         { _id: req.params.userId }, 
         { $pull: { friends: req.params.friendId } }, 

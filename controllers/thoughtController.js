@@ -103,8 +103,8 @@ module.exports = {
         res.status(500).json(err);
       });
   },
-  // remove a reaction from a thought
-  removeReaction(req, res) {
+  // delete a reaction from a thought
+  deleteReaction(req, res) {
     Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
       { $pull: { reactions: { reactionId: req.params.reactionId } } },
