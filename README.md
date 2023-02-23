@@ -51,7 +51,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 
 ## Video Preview of Project :
-[Video Preview]
+[Video Preview](https://drive.google.com/file/d/16l42jtC1QgpY9Xu6NxL-oFk2uBXm0qbR/view)
 
 ## Source :
 - GitHub Link: https://github.com/jeremy-fong/social-network-api
